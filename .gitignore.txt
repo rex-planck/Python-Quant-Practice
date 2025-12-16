@@ -1,0 +1,14 @@
+# 忽略数据文件 (太大了传不上去)
+*.csv
+*.xlsx
+data/
+
+# 忽略 Jupyter 的自动备份 (垃圾文件)
+.ipynb_checkpoints
+
+# 忽略 Python 编译产生的缓存
+__pycache__/
+*.pyc
+
+# 忽略系统自带的
+.DS_Store

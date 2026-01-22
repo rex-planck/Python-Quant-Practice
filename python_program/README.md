@@ -32,7 +32,7 @@ The model was trained on data from **2015-2020**, validated in **2021**, and tes
 - **Information Ratio (IR):** `1.04`
 - **Trading Cost:** Commission `0.05%` + Tax `0.1%` included.
 
-![Backtest Curve](python_program/backtest_final_success.png)
+![Backtest Curve](backtest_final_success.png)
 *(Figure: Cumulative Net Value Curve in 2022. The Red area represents the accumulated Alpha)*
 
 ---

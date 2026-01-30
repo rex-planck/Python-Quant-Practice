@@ -5,7 +5,7 @@
 
 <br />
 
-# 📈 AShare-Macro-Rotation: Macro-Regime & Liquidity Driven...
+
 
 # 📈 AShare-Macro-Rotation: Macro-Regime & Liquidity Driven Sector Rotation System
 

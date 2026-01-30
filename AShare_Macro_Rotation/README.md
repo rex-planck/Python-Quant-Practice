@@ -1,11 +1,10 @@
+
 <div align="center">
   <a href="./README_zh.md">简体中文</a> | 
   <a href="./README.md">English</a>
 </div>
 
 <br />
-
-
 
 # 📈 AShare-Macro-Rotation: Macro-Regime & Liquidity Driven Sector Rotation System
 
@@ -33,6 +32,8 @@ Tested on key sectors (Semiconductor, New Energy, Healthcare, Liquor) from **202
 **Backtest Period**: 2020.01 - 2026.01 (Out-of-Sample)
 *Includes the 2022 Bear Market, the 2024 Crash, and the 2025 Liquidity Bull Run.*
 
+![Sector Rotation Performance](./data/plots/batch_sector_comparison.png)
+
 | Sector | Strategy Return | Benchmark Return | **Alpha** | Key Feature |
 | :--- | :---: | :---: | :---: | :--- |
 | **💊 Healthcare (CXO)** | **+52.33%** | +27.81% | **+24.52%** | 📉 **Crash Avoidance**: Stayed cash (0 position) during the 2021-2023 crash. |
@@ -48,6 +49,9 @@ This strategy filters trading decisions through a hierarchical logic structure:
 
 ### Layer 1: Macro Regime Identification (HMM)
 We utilize `GaussianHMM` to model the hidden states of the market based on macro and market data.
+
+![HMM Market Regimes](./data/plots/hmm_market_regimes.png)
+
 * **State 0 (Panic/Bear)**: High Volatility + Downward Trend $\rightarrow$ **Force Sell / Empty Position**.
 * **State 1 (Oscillation)**: Low Volatility + Range Bound $\rightarrow$ **Activate Micro Timing (Layer 3)**.
 * **State 2 (Bull/Rally)**: Steady Uptrend $\rightarrow$ **Hold / Buy**.
@@ -193,7 +197,6 @@ python strategy/batch_run.py
 This project is for research and educational purposes. Issues and PRs are welcome!
 
 **Author**: [Hongran WANG]
-
 
 ---
 

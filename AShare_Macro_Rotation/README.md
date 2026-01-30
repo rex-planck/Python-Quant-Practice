@@ -1,3 +1,12 @@
+<div align="center">
+  <a href="./README_zh.md">简体中文</a> | 
+  <a href="./README.md">English</a>
+</div>
+
+<br />
+
+# 📈 AShare-Macro-Rotation: Macro-Regime & Liquidity Driven...
+
 # 📈 AShare-Macro-Rotation: Macro-Regime & Liquidity Driven Sector Rotation System
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg)

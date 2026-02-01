@@ -1,14 +1,40 @@
-# 忽略数据文件 (太大了传不上去)
+# --- Python 垃圾文件 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.so
+
+# --- IDE 配置文件 (不要同步您的编辑器设置) ---
+.idea/
+.vscode/
+
+# --- 量化数据与数据库 (最重要！！！) ---
+*.db
+*.sqlite
+*.sqlite3
 *.csv
 *.xlsx
-data/
+/data/
+AShare_Macro_Rotation/data/raw/
+AShare_Macro_Rotation/data/processed/
 
-# 忽略 Jupyter 的自动备份 (垃圾文件)
-.ipynb_checkpoints
+# --- 敏感信息 ---
+.env
+api_keys.py
+secrets.json
 
-# 忽略 Python 编译产生的缓存
-__pycache__/
-*.pyc
+# --- 临时产物与日志 ---
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+/assets/
+playwright-mcp/
+mlruns/
+GRU/mlruns/
 
-# 忽略系统自带的
+# --- Mac OS ---
 .DS_Store

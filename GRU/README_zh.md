@@ -130,7 +130,7 @@ pip install pyqlib pandas numpy matplotlib scikit-learn
 
 ## 👨‍💻 作者 (Author)
 
-**王宏然 (Rex)**
+**王泓然 (Rex)**
 
 * **学校:** 山东大学 (Shandong University)
 * **专业:** 国际经济与贸易 / 区块链 (辅修)
